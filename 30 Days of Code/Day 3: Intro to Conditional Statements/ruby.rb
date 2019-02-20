@@ -4,7 +4,7 @@ require 'json'
 require 'stringio'
 
 
-
+#I was playing around with procs to see what I could do. A lot of this in not needed.
 N = gets.to_i
 lessThanSix = proc {|x| (2..5).each do |n|
     if n == x
